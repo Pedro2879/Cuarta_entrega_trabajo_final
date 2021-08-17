@@ -1,0 +1,64 @@
+$frase1:80px;
+$frase2:40px;
+$textNavegador:22px;
+$paddingNav:20px;
+
+@mixin tamanio($width, $heigth)
+	{heigth:$heigth;
+	 width:$width;
+	}
+
+.logo__img--tamanio{
+	@include tamanio (200px,200px);
+	@media only screen and (max-width:767px)
+	{
+		@include tamanio(100px,100px);
+
+	}
+}
+
+.texto__frase1--tamanio{
+	font-size:$frase1;
+	@media only screen and (max-width:767px){
+	font-size:35px;
+	}
+}
+.texto__frase2--tamanio{
+	font-size:$frase2;
+	@media only screen and (max-width:767px){
+	font-size:20px;
+	}
+}
+.navegador{
+	padding: $paddingNav;
+}
+.navegador__texto--tamanio{
+	font-size:$textNavegador;
+	@media only screen and (max-width:767px){
+	font-size:15px;
+	}
+}
+
+/*APLICANDO EXTEND Y ALGUN OPERADOR PARA FUTURAS MODIFICACIONES*/
+
+.navegadorFooter__texto--tamanio h5{			
+	@extend .navegador__texto--tamanio;
+}
+.navegadorFooter{
+	padding:$paddingNav*2;
+	@media only screen and (max-width:767px){
+	padding:$paddingNav;
+	}
+}
+.principal__texto--tamanio h3{
+	font-size:35px;
+	@media only screen and (max-width:767px){
+	font-size:20px;
+	}
+}
+.nosotros__texto--tamanio h2{
+	font-size:30px;
+	@media only screen and (max-width:767px){
+	font-size:20px;
+	}
+}

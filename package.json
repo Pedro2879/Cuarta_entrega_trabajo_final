@@ -1,0 +1,19 @@
+{
+  "name": "idea-ibarrapedrof4",
+  "version": "1.0.0",
+  "description": "Archivo correspondiente a la cuarta entrega del proyecto final, el proyecto denominado 'chocolate con frases'se utiliza para hacer conocer los proudctos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": 
+"node-sass --include-path scss assets/scss/main.scss assets/css/estilo.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+  },
+  "author": "Pedro Ibarra",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "nodemon": "^2.0.12"
+  }
+}

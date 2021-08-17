@@ -1,0 +1,138 @@
+.fondo__pantalla--color {
+  background-color: #f0f0f0; }
+
+.texto__frase1--color {
+  color: peru; }
+
+.texto__frase2--color {
+  color: black; }
+
+.navegador, .navegadorFooter {
+  background-color: #f8f8a7; }
+
+.navegador__texto--color a, .navegadorFooter__texto--color a {
+  color: black; }
+
+.navegadorFooter {
+  /*UTILIZANDO UN POCO DE EXTEND*/ }
+
+.principal__texto--color h3 {
+  color: black; }
+
+.nosotros__texto--color {
+  color: black; }
+
+.texto__frase1--fuente {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+.texto__frase2--fuente {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+.navegador__texto--fuente, .navegadorFooter__texto--fuente, .principal__texto--fuente h3, .nosotros__texto--fuente h2 h3 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400; }
+
+.logo__img--tamanio {
+  heigth: 200px;
+  width: 200px; }
+  @media only screen and (max-width: 767px) {
+    .logo__img--tamanio {
+      heigth: 100px;
+      width: 100px; } }
+
+.texto__frase1--tamanio {
+  font-size: 80px; }
+  @media only screen and (max-width: 767px) {
+    .texto__frase1--tamanio {
+      font-size: 35px; } }
+
+.texto__frase2--tamanio {
+  font-size: 40px; }
+  @media only screen and (max-width: 767px) {
+    .texto__frase2--tamanio {
+      font-size: 20px; } }
+
+.navegador, .navegadorFooter {
+  padding: 20px; }
+
+.navegador__texto--tamanio, .navegadorFooter__texto--tamanio h5 {
+  font-size: 22px; }
+  @media only screen and (max-width: 767px) {
+    .navegador__texto--tamanio, .navegadorFooter__texto--tamanio h5 {
+      font-size: 15px; } }
+
+/*APLICANDO EXTEND Y ALGUN OPERADOR PARA FUTURAS MODIFICACIONES*/
+.navegadorFooter {
+  padding: 40px; }
+  @media only screen and (max-width: 767px) {
+    .navegadorFooter {
+      padding: 20px; } }
+
+.principal__texto--tamanio h3 {
+  font-size: 35px; }
+  @media only screen and (max-width: 767px) {
+    .principal__texto--tamanio h3 {
+      font-size: 20px; } }
+
+.nosotros__texto--tamanio h2 {
+  font-size: 30px; }
+  @media only screen and (max-width: 767px) {
+    .nosotros__texto--tamanio h2 {
+      font-size: 20px; } }
+
+.logo__img--ubicacion {
+  display: flex;
+  text-align: center; }
+
+.texto__frase1--ubicacion {
+  text-align: left;
+  margin-top: 40px; }
+  @media only screen and (max-width: 767px) {
+    .texto__frase1--ubicacion {
+      text-align: center;
+      margin-top: 15px; } }
+
+.texto__frase2--ubicacion {
+  text-align: center; }
+
+.navegador__texto--ubicacion, .navegadorFooter__texto--ubicacion h5 {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none; }
+
+/*APLICANDO EXTEND PARA FUTURAS MODIFICACIONES EN AMBOS NAVEGADORES*/
+.navegadorFooter__texto--ubicacion h5 {
+  text-align: center;
+  margin-top: 70px; }
+  @media only screen and (max-width: 767px) {
+    .navegadorFooter__texto--ubicacion h5 {
+      margin-top: 35px; } }
+
+.navegadorFooter {
+  margin-top: 10px; }
+
+.principal__texto--ubicacion h3 {
+  text-align: rigth;
+  margin-top: 180px; }
+  @media only screen and (max-width: 767px) {
+    .principal__texto--ubicacion h3 {
+      margin-top: 20px;
+      text-align: center; } }
+
+.nosotros__texto--ubicacion {
+  text-aling: center;
+  margin: 15px; }
+  @media only screen and (max-width: 767px) {
+    .nosotros__texto--ubicacion {
+      margin-top: 10px;
+      text-align: center; } }
+
+.institucional__video--ubicacion {
+  display: flex;
+  justify-content: center; }
+  @media only screen and (max-width: 767px) {
+    .institucional__video--ubicacion {
+      display: flex;
+      justify-content: center; } }

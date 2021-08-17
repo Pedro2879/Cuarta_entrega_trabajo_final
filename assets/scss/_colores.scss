@@ -1,0 +1,35 @@
+$fondo:rgb(240, 240, 240);
+$frasePrincipal:peru;
+$texto:black;
+$navegador:rgb(248, 248, 167);
+
+
+.fondo__pantalla--color{
+	background-color:$fondo ;
+}
+
+.texto__frase1--color{
+	color:$frasePrincipal;
+}
+.texto__frase2--color{
+	color:$texto;
+}
+.navegador{
+	background-color: $navegador;
+}
+.navegador__texto--color a{
+	color:$texto;
+}
+.navegadorFooter{				/*UTILIZANDO UN POCO DE EXTEND*/
+	@extend .navegador;
+
+}
+.navegadorFooter__texto--color{
+	@extend .navegador__texto--color;
+}
+.principal__texto--color h3{
+	color:$texto;
+}
+.nosotros__texto--color{
+	color:$texto;
+}

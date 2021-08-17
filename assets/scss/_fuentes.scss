@@ -1,0 +1,26 @@
+$fuenteprincipal:'Montserrat',sans-serif;
+$tipofuente:400;
+
+
+.texto__frase1--fuente{
+	font-family:$fuenteprincipal;
+	font-weight:$tipofuente;
+}
+.texto__frase2--fuente{
+	font-family:$fuenteprincipal;
+	font-weight:$tipofuente;
+}
+.navegador__texto--fuente{
+	font-family: $fuenteprincipal;
+    font-weight: $tipofuente;
+}
+.navegadorFooter__texto--fuente{
+	@extend .navegador__texto--fuente;
+}
+
+.principal__texto--fuente h3{
+	@extend .navegador__texto--fuente;
+}
+.nosotros__texto--fuente h2{
+	@extend .principal__texto--fuente;
+}
