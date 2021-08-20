@@ -34,14 +34,15 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 
-.img-fluid {
+.imagen__tamanio {
   width: 433px;
-  heigth: 577px; }
+  heigth: 577px;
+  margin: 25px; }
 
 @media only screen and (max-width: 767px) {
   .img__mobile--tamanio img {
     width: 330px;
-    heigth: 505px;
+    heigth: 450px;
     margin: 15px; } }
 
 .logo__img--tamanio {
@@ -49,8 +50,8 @@
   width: 200px; }
   @media only screen and (max-width: 767px) {
     .logo__img--tamanio {
-      heigth: 100px;
-      width: 100px; } }
+      width: 100px;
+      heigth: 100px; } }
 
 .texto__frase1--tamanio {
   font-size: 80px; }
@@ -94,7 +95,11 @@
 
 .logo__img--ubicacion {
   display: flex;
-  text-align: center; }
+  justify-content: center; }
+  @media only screen and (max-width: 767px) {
+    .logo__img--ubicacion {
+      display: flex;
+      justify-content: center; } }
 
 .texto__frase1--ubicacion {
   text-align: left;

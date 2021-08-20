@@ -6,17 +6,19 @@ $paddingNav:20px;
 @mixin tamanio($width, $heigth)
 	{heigth:$heigth;
 	 width:$width;
+
 	}
 
-.img-fluid{
+.imagen__tamanio{
 	width:433px;
 	heigth:577px;
+	margin:25px;
 }
 .img__mobile--tamanio img{
 	@media only screen and (max-width:767px)
 	{
 		width:330px;
-		heigth:505px;
+		heigth:450px;
 		margin:15px;
 		
 	}
@@ -25,8 +27,8 @@ $paddingNav:20px;
 	@include tamanio (200px,200px);
 	@media only screen and (max-width:767px)
 	{
-		@include tamanio(100px,100px);
-
+		width:100px;
+		heigth:100px;
 	}
 }
 
