@@ -166,3 +166,6 @@
 .formulario--ubicacion {
   display: flex;
   text-align: center; }
+
+.padding--carrusel {
+  margin: 15px; }
