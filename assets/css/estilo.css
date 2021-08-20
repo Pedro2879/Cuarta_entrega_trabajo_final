@@ -162,3 +162,7 @@
     .institucional__video--ubicacion {
       display: flex;
       justify-content: center; } }
+
+.formulario--ubicacion {
+  display: flex;
+  text-align: center; }
