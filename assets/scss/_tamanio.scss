@@ -8,6 +8,19 @@ $paddingNav:20px;
 	 width:$width;
 	}
 
+.img-fluid{
+	width:433px;
+	heigth:577px;
+}
+.img__mobile--tamanio img{
+	@media only screen and (max-width:767px)
+	{
+		width:330px;
+		heigth:505px;
+		margin:15px;
+		
+	}
+}
 .logo__img--tamanio{
 	@include tamanio (200px,200px);
 	@media only screen and (max-width:767px)

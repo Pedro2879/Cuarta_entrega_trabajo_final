@@ -34,6 +34,16 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 400; }
 
+.img-fluid {
+  width: 433px;
+  heigth: 577px; }
+
+@media only screen and (max-width: 767px) {
+  .img__mobile--tamanio img {
+    width: 330px;
+    heigth: 505px;
+    margin: 15px; } }
+
 .logo__img--tamanio {
   heigth: 200px;
   width: 200px; }
@@ -114,7 +124,7 @@
   margin-top: 10px; }
 
 .principal__texto--ubicacion h3 {
-  text-align: rigth;
+  text-align: center;
   margin-top: 180px; }
   @media only screen and (max-width: 767px) {
     .principal__texto--ubicacion h3 {
