@@ -1,6 +1,9 @@
 .fondo__pantalla--color {
   background-color: #f0f0f0; }
 
+.nav__fondo--color {
+  background-color: #f8f8a7; }
+
 .texto__frase1--color {
   color: peru; }
 
@@ -21,6 +24,14 @@
 
 .nosotros__texto--color {
   color: black; }
+
+.nav__texto--fuente {
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400; }
+  @media only screen and (max-width: 767px) {
+    .nav__texto--fuente {
+      font-size: 15px; } }
 
 .texto__frase1--fuente {
   font-family: "Montserrat", sans-serif;
