@@ -60,7 +60,7 @@ $paddingNav:20px;
 	@extend .navegador__texto--tamanio;
 }
 .navegadorFooter{
-	padding:$paddingNav*2;
+	padding:$paddingNav*1.2;
 	@media only screen and (max-width:767px){
 	padding:$paddingNav;
 	}

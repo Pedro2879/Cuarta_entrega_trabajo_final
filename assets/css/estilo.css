@@ -3251,8 +3251,7 @@ input[type="button"].btn-block {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: peru;
-  font-size:25px; }
+  color: #f6e1c5; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
@@ -7211,11 +7210,11 @@ a.text-dark:hover, a.text-dark:focus {
 .navegador, .navegadorFooter {
   background-color: rgba(47, 23, 15, 0.9); }
 
-.nav__texto--color a, .navegadorFooter__texto--color h5 a {
+.nav__texto--color a {
   color: #f6e1c5; }
 
 /*UTILIZANDO UN POCO DE EXTEND*/
-.navegadorFooter__texto--color {
+.navegadorFooter__texto--color h5 {
   color: #f6e1c5; }
 
 .principal__texto--color h3 {
@@ -7286,7 +7285,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 /*APLICANDO EXTEND Y ALGUN OPERADOR PARA FUTURAS MODIFICACIONES*/
 .navegadorFooter {
-  padding: 40px; }
+  padding: 24px; }
   @media only screen and (max-width: 767px) {
     .navegadorFooter {
       padding: 20px; } }
@@ -7334,6 +7333,11 @@ a.text-dark:hover, a.text-dark:focus {
   @media only screen and (max-width: 767px) {
     .navegadorFooter__texto--ubicacion h5 {
       margin-top: 35px; } }
+
+.navegadorFooter__texto--ubicacion section {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
 
 .navegadorFooter {
   margin-top: 10px; }

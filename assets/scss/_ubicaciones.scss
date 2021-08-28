@@ -27,13 +27,18 @@
 }
 
 /*APLICANDO EXTEND PARA FUTURAS MODIFICACIONES EN AMBOS NAVEGADORES*/
-.navegadorFooter__texto--ubicacion h5{
+.navegadorFooter__texto--ubicacion h5 {
 	@extend .navegador__texto--ubicacion;
 	text-align: center;
 	margin-top: 70px;
 	@media only screen and (max-width:767px){
 	margin-top:35px;
 	}
+}
+.navegadorFooter__texto--ubicacion section{
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
 }
 .navegadorFooter{
 	margin-top:10px;

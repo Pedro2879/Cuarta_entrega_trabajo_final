@@ -239,7 +239,7 @@
 
   .navbar-nav {
     .nav-link {
-      color: $navbar-light-color;
+      color: #f6e1c5;
 
       @include hover-focus() {
         color: #f6e1c5;
@@ -259,13 +259,13 @@
   }
 
   .navbar-toggler {
-    color: $navbar-light-color;
-    border-color: $navbar-light-toggler-border-color;
+    color: #f6e1c5;
+    border-color: #f6e1c5;
   }
 
   .navbar-toggler-icon {
     background-image: escape-svg($navbar-light-toggler-icon-bg);
-    
+
   }
 
   .navbar-text {

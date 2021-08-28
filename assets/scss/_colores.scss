@@ -39,12 +39,9 @@ $navegador:rgba(47, 23, 15, 0.9);
 	@extend .navegador;
 
 }
-.navegadorFooter__texto--color {
-	color: #f6e1c5;
 
-}
 .navegadorFooter__texto--color h5{
-	@extend .nav__texto--color;
+	color: #f6e1c5;
 }
 
 .principal__texto--color h3{
