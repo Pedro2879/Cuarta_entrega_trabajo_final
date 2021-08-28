@@ -1,5 +1,7 @@
 $fuenteprincipal:'Montserrat',sans-serif;
 $tipofuente:400;
+$fuentesecundaria:'Raleway',sans-serif;
+$tipofuentesecundaria:200;
 
 
 .nav__texto--fuente{
@@ -14,15 +16,17 @@ $tipofuente:400;
 	font-weight:$tipofuente;
 }
 .texto__frase2--fuente{
-	font-family:$fuenteprincipal;
-	font-weight:$tipofuente;
+	font-family:$fuentesecundaria;
+	font-weight:$tipofuentesecundaria;
 }
 .navegador__texto--fuente{
-	font-family: $fuenteprincipal;
-    font-weight: $tipofuente;
+	font-family: $fuentesecundaria;
+    font-weight: $tipofuentesecundaria;
+    
 }
 .navegadorFooter__texto--fuente{
 	@extend .navegador__texto--fuente;
+
 }
 
 .principal__texto--fuente h3{

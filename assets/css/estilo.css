@@ -1,29 +1,39 @@
-.fondo__pantalla--color {
-  background-color: #f0f0f0; }
+.fondo__pantalla--imagen1 {
+  background-image: url("../img/fondo1.jpg");
+  background-attachment: fixed;
+  background-position: left;
+  background-size: cover; }
+
+.fondo__pantalla--imagen2 {
+  background-image: url("../img/fondo2.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover; }
 
 .nav__fondo--color {
-  background-color: #f8f8a7; }
+  background-color: rgba(47, 23, 15, 0.9); }
 
 .texto__frase1--color {
   color: peru; }
 
 .texto__frase2--color {
-  color: black; }
+  color: rgba(255, 255, 255, 0.7); }
 
 .navegador, .navegadorFooter {
-  background-color: #f8f8a7; }
+  background-color: rgba(47, 23, 15, 0.9); }
 
-.navegador__texto--color a, .navegadorFooter__texto--color a {
-  color: black; }
+.nav__texto--color a, .navegadorFooter__texto--color h5 a {
+  color: #f6e1c5; }
 
-.navegadorFooter {
-  /*UTILIZANDO UN POCO DE EXTEND*/ }
+/*UTILIZANDO UN POCO DE EXTEND*/
+.navegadorFooter__texto--color {
+  color: #f6e1c5; }
 
 .principal__texto--color h3 {
-  color: black; }
+  color: rgba(255, 255, 255, 0.7); }
 
 .nosotros__texto--color {
-  color: black; }
+  color: rgba(255, 255, 255, 0.7); }
 
 .nav__texto--fuente {
   font-size: 20px;
@@ -38,12 +48,12 @@
   font-weight: 400; }
 
 .texto__frase2--fuente {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400; }
+  font-family: "Raleway", sans-serif;
+  font-weight: 200; }
 
 .navegador__texto--fuente, .navegadorFooter__texto--fuente, .principal__texto--fuente h3, .nosotros__texto--fuente h2 h3 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 400; }
+  font-family: "Raleway", sans-serif;
+  font-weight: 200; }
 
 .imagen__tamanio {
   width: 433px;
@@ -71,7 +81,7 @@
       font-size: 35px; } }
 
 .texto__frase2--tamanio {
-  font-size: 40px; }
+  font-size: 50px; }
   @media only screen and (max-width: 767px) {
     .texto__frase2--tamanio {
       font-size: 20px; } }

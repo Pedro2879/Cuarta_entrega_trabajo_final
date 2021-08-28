@@ -1,14 +1,23 @@
 $fondo:rgb(240, 240, 240);
 $frasePrincipal:peru;
-$texto:black;
-$navegador:rgb(248, 248, 167);
+$texto:rgba(255, 255, 255, 0.7);
+$navegador:rgba(47, 23, 15, 0.9);
 
 
-.fondo__pantalla--color{
-	background-color:$fondo ;
+.fondo__pantalla--imagen1{
+	background-image:url("../img/fondo1.jpg") ;
+	background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+.fondo__pantalla--imagen2{
+	background-image: url("../img/fondo2.jpg");
+	background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
 }
 .nav__fondo--color{
-	background-color: rgb(248, 248, 167);
+	background-color: $navegador;
 }
 
 .texto__frase1--color{
@@ -20,16 +29,24 @@ $navegador:rgb(248, 248, 167);
 .navegador{
 	background-color: $navegador;
 }
-.navegador__texto--color a{
-	color:$texto;
+.nav__texto--color a{
+	color:#f6e1c5;
 }
-.navegadorFooter{				/*UTILIZANDO UN POCO DE EXTEND*/
+
+								/*UTILIZANDO UN POCO DE EXTEND*/
+
+.navegadorFooter{				
 	@extend .navegador;
 
 }
-.navegadorFooter__texto--color{
-	@extend .navegador__texto--color;
+.navegadorFooter__texto--color {
+	color: #f6e1c5;
+
 }
+.navegadorFooter__texto--color h5{
+	@extend .nav__texto--color;
+}
+
 .principal__texto--color h3{
 	color:$texto;
 }
