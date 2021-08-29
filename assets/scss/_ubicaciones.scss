@@ -45,7 +45,15 @@
 }
 .principal__texto--ubicacion h3{
 	text-align: center;
-	margin-top: 180px;
+	margin-top: 250px;
+	@media only screen and (max-width:767px){
+	margin-top:20px;
+	text-align:center;
+	}
+}
+.secundario__texto--ubicacion h3{
+	text-align: center;
+	margin-top: 150px;
 	@media only screen and (max-width:767px){
 	margin-top:20px;
 	text-align:center;

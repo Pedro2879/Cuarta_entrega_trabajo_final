@@ -3251,7 +3251,7 @@ input[type="button"].btn-block {
     display: none; }
 
 .navbar-light .navbar-brand {
-  color: #f6e1c5; }
+  color: peru; }
   .navbar-light .navbar-brand:hover, .navbar-light .navbar-brand:focus {
     color: rgba(0, 0, 0, 0.9); }
 
@@ -7239,7 +7239,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "Raleway", sans-serif;
   font-weight: 200; }
 
-.navegador__texto--fuente, .navegadorFooter__texto--fuente, .principal__texto--fuente h3, .nosotros__texto--fuente h2 h3 {
+.navegador__texto--fuente, .navegadorFooter__texto--fuente, .principal__texto--fuente h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200; }
+
+.nosotros__texto--fuente h2 {
   font-family: "Raleway", sans-serif;
   font-weight: 200; }
 
@@ -7344,9 +7348,17 @@ a.text-dark:hover, a.text-dark:focus {
 
 .principal__texto--ubicacion h3 {
   text-align: center;
-  margin-top: 180px; }
+  margin-top: 250px; }
   @media only screen and (max-width: 767px) {
     .principal__texto--ubicacion h3 {
+      margin-top: 20px;
+      text-align: center; } }
+
+.secundario__texto--ubicacion h3 {
+  text-align: center;
+  margin-top: 150px; }
+  @media only screen and (max-width: 767px) {
+    .secundario__texto--ubicacion h3 {
       margin-top: 20px;
       text-align: center; } }
 

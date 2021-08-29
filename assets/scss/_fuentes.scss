@@ -33,5 +33,6 @@ $tipofuentesecundaria:200;
 	@extend .navegador__texto--fuente;
 }
 .nosotros__texto--fuente h2{
-	@extend .principal__texto--fuente;
+	font-family: $fuentesecundaria;
+    font-weight: $tipofuentesecundaria;
 }
